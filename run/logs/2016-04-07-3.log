@@ -1,0 +1,210 @@
+[14:39:36] [Client thread/INFO]: Setting user: Player359
+[14:39:40] [Client thread/INFO]: LWJGL Version: 2.9.4
+[14:39:47] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:SpartanMod
+[14:39:50] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[14:39:51] [Thread-8/INFO]: Initializing LWJGL OpenAL
+[14:39:51] [Thread-8/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[14:39:51] [Thread-8/INFO]: OpenAL initialized.
+[14:39:51] [Sound Library Loader/INFO]: Sound engine started
+[14:39:56] [Client thread/INFO]: Created: 16x16 textures-atlas
+[14:39:58] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:SpartanMod
+[14:40:00] [Client thread/INFO]: SoundSystem shutting down...
+[14:40:01] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[14:40:01] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[14:40:01] [Thread-10/INFO]: Initializing LWJGL OpenAL
+[14:40:01] [Thread-10/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[14:40:01] [Thread-10/INFO]: OpenAL initialized.
+[14:40:01] [Sound Library Loader/INFO]: Sound engine started
+[14:40:05] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[14:40:07] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[14:40:20] [Server thread/INFO]: Starting integrated minecraft server version 1.9
+[14:40:20] [Server thread/INFO]: Generating keypair
+[14:40:21] [Server thread/INFO]: Preparing start region for level 0
+[14:40:22] [Server thread/INFO]: Preparing spawn area: 2%
+[14:40:23] [Server thread/INFO]: Preparing spawn area: 54%
+[14:40:24] [Server thread/INFO]: Changing view distance to 12, from 10
+[14:40:40] [Client thread/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@7d159df[id=f79c4f00-774e-3daf-ac9c-aebcbcc29c64,name=Player359,properties={},legacy=false]
+com.mojang.authlib.exceptions.AuthenticationUnavailableException: Cannot contact authentication server
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:71) ~[YggdrasilAuthenticationService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:175) [YggdrasilMinecraftSessionService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:168) [YggdrasilMinecraftSessionService.class:?]
+	at net.minecraft.client.Minecraft.launchIntegratedServer(Minecraft.java:2437) [Minecraft.class:?]
+	at net.minecraftforge.fml.client.FMLClientHandler.tryLoadExistingWorld(FMLClientHandler.java:694) [FMLClientHandler.class:?]
+	at net.minecraft.client.gui.GuiListWorldSelectionEntry.func_186777_e(GuiListWorldSelectionEntry.java:255) [GuiListWorldSelectionEntry.class:?]
+	at net.minecraft.client.gui.GuiListWorldSelectionEntry.func_186774_a(GuiListWorldSelectionEntry.java:209) [GuiListWorldSelectionEntry.class:?]
+	at net.minecraft.client.gui.GuiListWorldSelectionEntry.mousePressed(GuiListWorldSelectionEntry.java:178) [GuiListWorldSelectionEntry.class:?]
+	at net.minecraft.client.gui.GuiListExtended.mouseClicked(GuiListExtended.java:57) [GuiListExtended.class:?]
+	at net.minecraft.client.gui.GuiWorldSelection.mouseClicked(GuiWorldSelection.java:137) [GuiWorldSelection.class:?]
+	at net.minecraft.client.gui.GuiScreen.handleMouseInput(GuiScreen.java:617) [GuiScreen.class:?]
+	at net.minecraft.client.gui.GuiWorldSelection.handleMouseInput(GuiWorldSelection.java:48) [GuiWorldSelection.class:?]
+	at net.minecraft.client.gui.GuiScreen.handleInput(GuiScreen.java:583) [GuiScreen.class:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1791) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1114) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:401) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_79]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_79]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_79]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_79]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_79]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_79]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_79]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_79]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:26) [start/:?]
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.TwoStacksPlainSocketImpl.socketConnect(Native Method) ~[?:1.7.0_79]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339) ~[?:1.7.0_79]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200) ~[?:1.7.0_79]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182) ~[?:1.7.0_79]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.7.0_79]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.7.0_79]
+	at java.net.Socket.connect(Socket.java:579) ~[?:1.7.0_79]
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:625) ~[?:1.7.0_79]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175) ~[?:1.7.0_79]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432) ~[?:1.7.0_79]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527) ~[?:1.7.0_79]
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:275) ~[?:1.7.0_79]
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:371) ~[?:1.7.0_79]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191) ~[?:1.7.0_79]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:976) ~[?:1.7.0_79]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177) ~[?:1.7.0_79]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1301) ~[?:1.7.0_79]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254) ~[?:1.7.0_79]
+	at com.mojang.authlib.HttpAuthenticationService.performGetRequest(HttpAuthenticationService.java:126) ~[HttpAuthenticationService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:54) ~[YggdrasilAuthenticationService.class:?]
+	... 28 more
+[14:40:40] [Server thread/INFO]: Player359[local:E:2a3175cf] logged in with entity id 338 at (-104.57495447891533, 72.0, 247.1323783078557)
+[14:40:40] [Server thread/INFO]: Player359 joined the game
+[14:40:41] [Server thread/INFO]: Saving and pausing game...
+[14:40:41] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[14:40:42] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[14:40:42] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[14:40:42] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2090ms behind, skipping 41 tick(s)
+[14:40:45] [Server thread/INFO]: Player359 has just earned the achievement [Taking Inventory]
+[14:40:45] [Client thread/INFO]: [CHAT] Player359 has just earned the achievement [Taking Inventory]
+[14:40:47] [Client thread/WARN]: Failed to load texture: andrew_spartanmod:textures/model/leather_helmet_f.png
+java.io.FileNotFoundException: andrew_spartanmod:textures/model/leather_helmet_f.png
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:68) ~[FallbackResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:64) ~[SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.renderer.texture.SimpleTexture.loadTexture(SimpleTexture.java:34) ~[SimpleTexture.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.loadTexture(TextureManager.java:67) [TextureManager.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.bindTexture(TextureManager.java:42) [TextureManager.class:?]
+	at net.minecraft.client.renderer.entity.Render.bindTexture(Render.java:127) [Render.class:?]
+	at net.minecraft.client.renderer.entity.layers.LayerArmorBase.renderArmorLayer(LayerArmorBase.java:65) [LayerArmorBase.class:?]
+	at net.minecraft.client.renderer.entity.layers.LayerArmorBase.doRenderLayer(LayerArmorBase.java:41) [LayerArmorBase.class:?]
+	at net.minecraft.client.renderer.entity.RenderLivingBase.renderLayers(RenderLivingBase.java:456) [RenderLivingBase.class:?]
+	at net.minecraft.client.renderer.entity.RenderLivingBase.doRender(RenderLivingBase.java:196) [RenderLivingBase.class:?]
+	at net.minecraft.client.renderer.entity.RenderPlayer.doRender(RenderPlayer.java:74) [RenderPlayer.class:?]
+	at net.minecraft.client.renderer.entity.RenderPlayer.doRender(RenderPlayer.java:28) [RenderPlayer.class:?]
+	at net.minecraft.client.renderer.entity.RenderManager.doRenderEntity(RenderManager.java:365) [RenderManager.class:?]
+	at net.minecraft.client.gui.inventory.GuiInventory.drawEntityOnScreen(GuiInventory.java:141) [GuiInventory.class:?]
+	at net.minecraft.client.gui.inventory.GuiContainerCreative.drawGuiContainerBackgroundLayer(GuiContainerCreative.java:814) [GuiContainerCreative.class:?]
+	at net.minecraft.client.gui.inventory.GuiContainer.drawScreen(GuiContainer.java:98) [GuiContainer.class:?]
+	at net.minecraft.client.renderer.InventoryEffectRenderer.drawScreen(InventoryEffectRenderer.java:62) [InventoryEffectRenderer.class:?]
+	at net.minecraft.client.gui.inventory.GuiContainerCreative.drawScreen(GuiContainerCreative.java:652) [GuiContainerCreative.class:?]
+	at net.minecraftforge.client.ForgeHooksClient.drawScreen(ForgeHooksClient.java:313) [ForgeHooksClient.class:?]
+	at net.minecraft.client.renderer.EntityRenderer.updateCameraAndRender(EntityRenderer.java:1147) [EntityRenderer.class:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1135) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:401) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_79]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_79]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_79]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_79]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_79]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_79]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_79]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_79]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:26) [start/:?]
+[14:40:47] [Client thread/WARN]: Failed to load texture: andrew_spartanmod:textures/model/leather_helmet_f_overlay.png
+java.io.FileNotFoundException: andrew_spartanmod:textures/model/leather_helmet_f_overlay.png
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:68) ~[FallbackResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:64) ~[SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.renderer.texture.SimpleTexture.loadTexture(SimpleTexture.java:34) ~[SimpleTexture.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.loadTexture(TextureManager.java:67) [TextureManager.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.bindTexture(TextureManager.java:42) [TextureManager.class:?]
+	at net.minecraft.client.renderer.entity.Render.bindTexture(Render.java:127) [Render.class:?]
+	at net.minecraft.client.renderer.entity.layers.LayerArmorBase.renderArmorLayer(LayerArmorBase.java:76) [LayerArmorBase.class:?]
+	at net.minecraft.client.renderer.entity.layers.LayerArmorBase.doRenderLayer(LayerArmorBase.java:41) [LayerArmorBase.class:?]
+	at net.minecraft.client.renderer.entity.RenderLivingBase.renderLayers(RenderLivingBase.java:456) [RenderLivingBase.class:?]
+	at net.minecraft.client.renderer.entity.RenderLivingBase.doRender(RenderLivingBase.java:196) [RenderLivingBase.class:?]
+	at net.minecraft.client.renderer.entity.RenderPlayer.doRender(RenderPlayer.java:74) [RenderPlayer.class:?]
+	at net.minecraft.client.renderer.entity.RenderPlayer.doRender(RenderPlayer.java:28) [RenderPlayer.class:?]
+	at net.minecraft.client.renderer.entity.RenderManager.doRenderEntity(RenderManager.java:365) [RenderManager.class:?]
+	at net.minecraft.client.gui.inventory.GuiInventory.drawEntityOnScreen(GuiInventory.java:141) [GuiInventory.class:?]
+	at net.minecraft.client.gui.inventory.GuiContainerCreative.drawGuiContainerBackgroundLayer(GuiContainerCreative.java:814) [GuiContainerCreative.class:?]
+	at net.minecraft.client.gui.inventory.GuiContainer.drawScreen(GuiContainer.java:98) [GuiContainer.class:?]
+	at net.minecraft.client.renderer.InventoryEffectRenderer.drawScreen(InventoryEffectRenderer.java:62) [InventoryEffectRenderer.class:?]
+	at net.minecraft.client.gui.inventory.GuiContainerCreative.drawScreen(GuiContainerCreative.java:652) [GuiContainerCreative.class:?]
+	at net.minecraftforge.client.ForgeHooksClient.drawScreen(ForgeHooksClient.java:313) [ForgeHooksClient.class:?]
+	at net.minecraft.client.renderer.EntityRenderer.updateCameraAndRender(EntityRenderer.java:1147) [EntityRenderer.class:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1135) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:401) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_79]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_79]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_79]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_79]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_79]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_79]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_79]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_79]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:26) [start/:?]
+[14:40:49] [Server thread/INFO]: Saving and pausing game...
+[14:40:49] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[14:40:50] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[14:40:50] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[14:40:51] [Server thread/INFO]: Stopping server
+[14:40:51] [Server thread/INFO]: Saving players
+[14:40:51] [Server thread/INFO]: Saving worlds
+[14:40:51] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[14:40:51] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[14:40:51] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[14:40:57] [pool-2-thread-1/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@68c03f8[id=f79c4f00-774e-3daf-ac9c-aebcbcc29c64,name=Player359,properties={},legacy=false]
+com.mojang.authlib.exceptions.AuthenticationUnavailableException: Cannot contact authentication server
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:71) ~[YggdrasilAuthenticationService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:175) [YggdrasilMinecraftSessionService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:59) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:56) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3524) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2317) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2280) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2195) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3934) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:3938) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:4821) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:4827) [guava-17.0.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:165) [YggdrasilMinecraftSessionService.class:?]
+	at net.minecraft.client.Minecraft.getProfileProperties(Minecraft.java:3038) [Minecraft.class:?]
+	at net.minecraft.client.resources.SkinManager$3.run(SkinManager.java:130) [SkinManager$3.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) [?:1.7.0_79]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262) [?:1.7.0_79]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [?:1.7.0_79]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [?:1.7.0_79]
+	at java.lang.Thread.run(Thread.java:745) [?:1.7.0_79]
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method) ~[?:1.7.0_79]
+	at java.net.SocketInputStream.read(SocketInputStream.java:152) ~[?:1.7.0_79]
+	at java.net.SocketInputStream.read(SocketInputStream.java:122) ~[?:1.7.0_79]
+	at sun.security.ssl.InputRecord.readFully(InputRecord.java:442) ~[?:1.7.0_79]
+	at sun.security.ssl.InputRecord.read(InputRecord.java:480) ~[?:1.7.0_79]
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:934) ~[?:1.7.0_79]
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1332) ~[?:1.7.0_79]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1359) ~[?:1.7.0_79]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1343) ~[?:1.7.0_79]
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:563) ~[?:1.7.0_79]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:185) ~[?:1.7.0_79]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1301) ~[?:1.7.0_79]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254) ~[?:1.7.0_79]
+	at com.mojang.authlib.HttpAuthenticationService.performGetRequest(HttpAuthenticationService.java:126) ~[HttpAuthenticationService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:54) ~[YggdrasilAuthenticationService.class:?]
+	... 19 more
