@@ -1,0 +1,14 @@
+Symbol range map extraction starting
+Processing 12 files
+processing com\andrewlray\mcmods\andrew_spartanmod19\SpartanMod.java
+processing com\andrewlray\mcmods\andrew_spartanmod19\hookExtenders\PlayerInteractEventHookExtender.java
+processing com\andrewlray\mcmods\andrew_spartanmod19\items\FeatheredArmor.java
+processing com\andrewlray\mcmods\andrew_spartanmod19\items\SMItems.java
+processing com\andrewlray\mcmods\andrew_spartanmod19\items\crafting\RecipesFeatheredArmorDyes.java
+processing com\andrewlray\mcmods\andrew_spartanmod19\items\crafting\SMRecipes.java
+processing com\andrewlray\mcmods\andrew_spartanmod19\items\models\ModelHelmetF.java
+processing com\andrewlray\mcmods\andrew_spartanmod19\items\models\ModelLeatherCapF.java
+processing com\andrewlray\mcmods\andrew_spartanmod19\lib\Constants.java
+processing com\andrewlray\mcmods\andrew_spartanmod19\lib\SMUtil.java
+processing com\andrewlray\mcmods\andrew_spartanmod19\proxy\ClientProxy.java
+processing com\andrewlray\mcmods\andrew_spartanmod19\proxy\CommonProxy.java
